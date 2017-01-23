@@ -154,11 +154,13 @@
         android:onClick="onClickNumberButton"/>
 
     <Button
+        android:id="@+id/decimal"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/button_height"
         android:layout_row="5"
         android:layout_column="2"
-        android:text="."/>
+        android:text="."
+        android:onClick="onClickNumberButton"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="@dimen/button_height"
